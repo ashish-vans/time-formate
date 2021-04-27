@@ -1,0 +1,19 @@
+<template>
+
+  <input value={message}>
+  <div>
+    <marquee behavior="alternate" width="">{date}</marquee></input>
+    <!--<input value={date}></input>-->
+  </div>
+  <lightning-layout class="slds-align_absolute-right slds-text-align_center container">
+    <lightning-layout-item size="12">
+      <div>
+        <font size="+1" face="Times New Roman"> Date: {x} </font>
+      </div>
+      <div>
+        <button onclick={initDate}>Init</button>
+        <button onclick={updateDate}>Update</button>
+      </div>
+    </lightning-layout-item>
+  </lightning-layout>
+</template>

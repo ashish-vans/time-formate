@@ -1,0 +1,14 @@
+.container {
+    background-color: white;
+    padding: 16px;
+    max-height: 480px;
+    overflow-y: scroll;
+    display: block;
+}
+input{
+   background-color: black;
+  color: white;
+}
+.x{
+  color: red;
+}
